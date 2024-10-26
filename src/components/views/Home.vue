@@ -5,7 +5,8 @@
     </header>
     <main>
       <div class="container">
-        <Model />
+        <!-- <Model /> -->
+        <ModleExample />
       </div>
     </main>
   </div>
@@ -13,10 +14,12 @@
 
 <script>
 import Model from "@/components/Model.vue";
+import ModleExample from "../ModleExample.vue";
 
 export default {
   components: {
     Model,
+    ModleExample,
   },
 };
 </script>
